@@ -1,5 +1,8 @@
 # Real-Estate-Sales-Prediction
 
+## project 
+
+
 **Description:**
 Welcome to the Real Estate Sales Prediction project! In this repository, we delve into the fascinating world of machine learning to predict real estate sales outcomes with a focus on residential properties in the town of Bristol. Our project harnesses the power of Support Vector Machine (SVM) models, a robust machine learning technique, to unlock valuable insights and make informed predictions.
 
