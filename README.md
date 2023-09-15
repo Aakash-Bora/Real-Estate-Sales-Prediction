@@ -15,10 +15,15 @@ Machine learning (ML) is the process of building algorithms that can "learn" fro
 * Future Predictions: Utilize the trained SVM model to make predictions about future real estate sales.
 
 **Libraries Used:**
-1. pandas (pd): Used for data manipulation and analysis. It's primarily used to read the CSV file, create dataframes, and perform operations on the data.
-2. numpy (np): Used for numerical computations. It is utilized to handle arrays and perform various mathematical operations on the data.
-3. matplotlib.pyplot (plt): Used for creating data visualizations and plots. In this code, it's used to generate scatter plots and other graphs to visualize the data and model performance.
-4. seaborn (sns): A data visualization library built on top of Matplotlib. It's used to enhance the appearance of the plots, such as adding colors and labels to the scatter plot.
+* pandas (pd): Used for data manipulation and analysis. It's primarily used to read the CSV file, create dataframes, and perform operations on the data.
+* numpy (np): Used for numerical computations. It is utilized to handle arrays and perform various mathematical operations on the data.
+* matplotlib.pyplot (plt): Used for creating data visualizations and plots. In this code, it's used to generate scatter plots and other graphs to visualize the data and model performance.
+* seaborn (sns): A data visualization library built on top of Matplotlib. It's used to enhance the appearance of the plots, such as adding colors and labels to the scatter plot.
+* scikit-learn (sklearn): A machine learning library that provides tools for data mining and data analysis.
+  * sklearn.preprocessing: Used for data preprocessing tasks, such as label encoding.
+  * sklearn.model_selection: Used for splitting the data into training and testing sets.
+  * sklearn.svm: Used to implement Support Vector Machine (SVM) models for classification.
+  * sklearn.metrics: Used for evaluating the model's performance, including accuracy calculation and confusion matrix creation.
 
 **Data:**
 We source our data from a real estate sales dataset spanning the years 2001 to 2020. Through statistics and visualizations, we offer a comprehensive description of the dataset to gain insights into the underlying trends and patterns.
