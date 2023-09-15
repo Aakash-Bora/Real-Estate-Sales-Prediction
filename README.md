@@ -15,10 +15,10 @@ Machine learning (ML) is the process of building algorithms that can "learn" fro
 * Future Predictions: Utilize the trained SVM model to make predictions about future real estate sales.
 
 **Libraries Used:**
-* NumPy: NumPy is a fundamental library for scientific computing in Python. It provides support for arrays and matrices, along with mathematical functions to operate on these arrays. In our project, NumPy is used for data manipulation and numerical computations.
-* Pandas: Pandas is a versatile library for data manipulation and analysis. We employ Pandas to read, clean, and preprocess the real estate sales dataset. It helps us organize and explore the data effectively.
-* Matplotlib: Matplotlib is a powerful data visualization library that allows us to create various types of plots and charts. In our project, Matplotlib is used to generate informative graphs and visualizations to understand the dataset and model performance better.
-* Scikit-learn: Scikit-learn is a widely-used machine learning library that provides tools for data mining and data analysis. We use Scikit-learn to train the Support Vector Machine (SVM) model, perform data splitting for training and validation, and evaluate model accuracy.
+1. pandas (pd): Used for data manipulation and analysis. It's primarily used to read the CSV file, create dataframes, and perform operations on the data.
+2. numpy (np): Used for numerical computations. It is utilized to handle arrays and perform various mathematical operations on the data.
+3. matplotlib.pyplot (plt): Used for creating data visualizations and plots. In this code, it's used to generate scatter plots and other graphs to visualize the data and model performance.
+4. seaborn (sns): A data visualization library built on top of Matplotlib. It's used to enhance the appearance of the plots, such as adding colors and labels to the scatter plot.
 
 **Data:**
 We source our data from a real estate sales dataset spanning the years 2001 to 2020. Through statistics and visualizations, we offer a comprehensive description of the dataset to gain insights into the underlying trends and patterns.
