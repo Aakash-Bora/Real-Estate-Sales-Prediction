@@ -7,12 +7,12 @@ Welcome to the Real Estate Sales Prediction project! In this repository, we delv
 
 - **Python**: The entire project is implemented in Python, a versatile and widely-used programming language for data analysis, machine learning, and scientific computing.
 
-**Project Overview:**
+## Project Overview:
 
-Machine Learning:
+**Machine Learning**:
 Machine learning (ML) is the process of building algorithms that can "learn" from data. ML takes a dataset and endeavors to construct a model that can accurately predict future data or fill in missing information. In our case, we aim to predict real estate sales in Bristol based on historical data.
 
-**Project Objectives:**
+**Project Objectives**:
 * Train a Model: We use the Scikit-learn library to generate and train an SVM model with an 80/20 training/validation split.
 * Validation: Test the model's performance against a validation dataset to ensure its accuracy and reliability.
 * Future Predictions: Utilize the trained SVM model to make predictions about future real estate sales.
@@ -42,7 +42,10 @@ We source our data from a real estate sales dataset spanning the years 2001 to 2
 5. **Predictions**: The trained model is employed to make predictions about real estate sales, enabling us to anticipate future trends in the Bristol housing market.
 6. **Visualization**: We plot the model's predictions on a graph to visualize its performance, differentiating between Condo and Single Family properties.
 
-**Result:**
+## Result:
 The project offers a powerful tool for predicting real estate sales in Bristol, aiding in decision-making processes for both buyers and sellers. By leveraging SVM models and data analysis, we aim to contribute valuable insights into the dynamic real estate market.
 
 Feel free to explore our code, dataset, and project documentation to gain a deeper understanding of the techniques and insights offered by this Real Estate Sales Prediction project.
+
+Happy predicting!
+
