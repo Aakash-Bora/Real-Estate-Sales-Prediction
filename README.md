@@ -20,10 +20,6 @@ Machine learning (ML) is the process of building algorithms that can "learn" fro
 * matplotlib.pyplot (plt): Used for creating data visualizations and plots. In this code, it's used to generate scatter plots and other graphs to visualize the data and model performance.
 * seaborn (sns): A data visualization library built on top of Matplotlib. It's used to enhance the appearance of the plots, such as adding colors and labels to the scatter plot.
 * scikit-learn (sklearn): A machine learning library that provides tools for data mining and data analysis.
-  * sklearn.preprocessing: Used for data preprocessing tasks, such as label encoding.
-  * sklearn.model_selection: Used for splitting the data into training and testing sets.
-  * sklearn.svm: Used to implement Support Vector Machine (SVM) models for classification.
-  * sklearn.metrics: Used for evaluating the model's performance, including accuracy calculation and confusion matrix creation.
 
 **Data:**
 We source our data from a real estate sales dataset spanning the years 2001 to 2020. Through statistics and visualizations, we offer a comprehensive description of the dataset to gain insights into the underlying trends and patterns.
